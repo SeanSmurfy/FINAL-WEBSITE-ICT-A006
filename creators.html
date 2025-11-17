@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-See - The Creators</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    
+    <nav class="page-nav">
+        <div class="container">
+            <div class="nav-left">
+                <a href="index.html" class="site-logo">
+                    <img src="images/Q-See LOGO (NO BG).png" alt="Q-See Logo" class="site-logo-img">
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="index.html" class="nav-link">Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="creators" class="creators-section">
+    <div class="container">
+        
+        <h2 class="section-title">MEET THE CREATORS</h2>
+        <p class="section-subtitle">This project was proudly created by Grade 12, ICT-A006 students from ICCT Colleges, Sumulong Campus.</p>
+        
+        <div class="creators-gallery">
+            
+                <article class="creator-card" data-creator-id="sean">
+                    <div class="creator-image">
+                        <img src="images/sean.png" alt="Sean Reignorr Mendoza" onerror="this.src='https://placehold.co/120x120/2d3748/ffffff?text=Sean';">
+                    </div>
+                    <div class="creator-info">
+                        <h3>Sean Reignorr Mendoza</h3>
+                        <p>Project Lead & Developer</p>
+                    </div>
+                </article>
+
+                <article class="creator-card" data-creator-id="walter">
+                    <div class="creator-image">
+                        <img src="images/walter.png" alt="Walter Nuñez" onerror="this.src='https://placehold.co/120x120/2d3748/ffffff?text=Walter';">
+                    </div>
+                    <div class="creator-info">
+                        <h3>Walter Nuñez</h3>
+                        <p>Designer & Researcher</p>
+                    </div>
+                </article>
+
+                <article class="creator-card" data-creator-id="jeremy">
+                    <div class="creator-image">
+                        <img src="images/jeremy.png" alt="Jeremy Nolial" onerror="this.src='https://placehold.co/120x120/2d3748/ffffff?text=Jeremy';">
+                    </div>
+                    <div class="creator-info">
+                        <h3>Jeremy Nolial</h3>
+                        <p>Content & Documentation</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Q-See. All rights reserved.</p>
+            <p>Made with <span id="secret-trigger">❤️</span> in Quezon City.</p>
+        </div>
+    </footer>
+    
+    
+    <div id="creator-modal-overlay">
+        <div id="creator-modal-content">
+            
+            <div id="creator-modal-header">
+                <div id="creator-modal-img-wrapper">
+                    <img id="creator-modal-img" src="images/sean.png" alt="Creator Image">
+                </div>
+                <h2 id="creator-modal-name">Sean Reignorr Mendoza</h2>
+                <p id="creator-modal-role">Project Lead & Developer</p>
+            </div>
+            
+            <div id="creator-modal-body">
+                <p id="creator-modal-desc">Short description goes here...</p>
+                
+                <h3>Contact & Links</h3>
+                <ul id="creator-modal-contact-list">
+                </ul>
+                <div id="creator-modal-socials">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div id="password-modal-overlay">
+        <div id="password-modal-content">
+            <h3>Enter Code</h3>
+            <p>A special message awaits.</p>
+            <form id="password-form">
+                <input type="password" id="password-input" placeholder="Password..." autocomplete="off">
+                <button type="submit" id="password-submit-btn" class="modal-button">Unlock</button>
+            </form>
+            <p id="password-message"></p>
+        </div>
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- ==           NEW: SURPRISE MODAL (EASTER EGG)       == -->
+    <!-- ====================================================== -->
+    <div id="surprise-modal-overlay">
+        <div id="surprise-modal-content">
+            <div class="surprise-heart">❤️</div>
+            <p class="surprise-message">I LOVE YOU SO MUCH LABLAB KOOO! SUPRISEEEE BNWBAHWBAHBW MWA MWA!!</p>
+        </div>
+    </div>
+    
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
